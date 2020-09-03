@@ -104,18 +104,143 @@ q {
 
 body {
   font-family: "Roboto Mono", monospace;
-  font-size: 16px;
+  font-size: 12px;
+}
+
+.wrapper {
+  padding: 2rem;
 }
 
 h1 {
   font-family: "Chelsea Market", cursive;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* text-align: left; */
 }
 
 .title-container {
+  width: 60%;
+  height: 100%;
   text-align: center;
+  vertical-align: top;
 }
 
 .logo img {
   border-radius: 100%;
+}
+
+.logo {
+  width: 30%;
+  text-align: center;
+}
+
+.links {
+  /* width: 100%; */
+  text-align: center;
+  padding: 1rem;
+  height: 3rem;
+}
+
+.links a {
+  padding: 0.6rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  /* display: inline-block; */
+  width: 7rem;
+}
+
+.links a:nth-child(1) {
+  background-color: #ff764e;
+}
+
+.links a:nth-child(2) {
+  background-color: #5ed3eb;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.links a:nth-child(3) {
+  background-color: #ffcd69;
+}
+
+.title-container,
+.logo {
+  display: inline-block;
+}
+
+.big-container {
+  height: 8rem;
+}
+
+#about {
+  background: #ddb9a3;
+  color: white;
+  padding: 1rem;
+  border-color: black;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.littlecontainer h3:nth-child(3) {
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+#logotext {
+  width: 100%;
+}
+
+.firstlogo,
+.secondlogo {
+  text-align: center;
+  margin: 2rem 13rem;
+}
+.firstlogo img,
+.secondlogo img {
+  height: 5rem;
+}
+
+.secondlogo p {
+  width: 100%;
+}
+
+.footerimage img {
+  height: 12rem;
+  object-fit: none;
+  object-position: 20% 18%;
+}
+
+.footer-nav {
+  height: 10rem;
+  background: #f9e7dc;
+  text-align: center;
+}
+
+.links-footer {
+  padding-top: 5rem;
+}
+
+.links-footer a {
+  padding: 0.6rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  height: 2rem;
+  width: 2rem;
+}
+
+.links-footer a:nth-child(1) {
+  background-color: #ff764e;
+}
+
+.links-footer a:nth-child(2) {
+  background-color: #5ed3eb;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.links-footer a:nth-child(3) {
+  background-color: #ffcd69;
 }
